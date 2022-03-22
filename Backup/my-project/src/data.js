@@ -1,0 +1,55 @@
+const data = {
+    products:[
+        {
+        name: 'Nike Slim Shirt',
+        slug: 'nike-slim-shirt',
+        category:'Shirt',
+        image:'/images/fitness_tracking.jpg',
+        price: 120,
+        countInStock: 10,
+        brand: 'Nike',
+        rating: 4.5,
+        numReviews:10,
+        description:'High Quailty Shirt',
+        
+        },
+        {
+            name: 'Adidas Slim Shirt',
+            slug: 'adidas-slim-shirt',
+            category:'Shirt',
+            image:'/images/golf.jpg',
+            price: 450,
+            countInStock: 8,
+            brand: 'Adidas',
+            rating: 3.5,
+            numReviews:10,
+            description:'High Quailty Shirt',
+        },
+        {
+            name: 'Nike Slim Pant',
+            slug: 'nike-slim-pant',
+            category:'Pant',
+            image:'/images/multisport.jpg',
+            price: 800,
+            countInStock: 9,
+            brand: 'Nike',
+            rating: 3.5,
+            numReviews:10,
+            description:'High Quailty Pant',
+        },
+        {
+            name: 'Polo T-Shirt',
+            slug: 'polo-t-shirt',
+            category:'TShirt',
+            image:'/images/running.jpg',
+            price: 650,
+            countInStock: 10,
+            brand: 'Polo',
+            rating: 5,
+            numReviews:10,
+            description:'High Quailty T-shirt',
+        },                               
+    ],
+};
+
+export default data;
